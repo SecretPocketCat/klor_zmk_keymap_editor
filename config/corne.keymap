@@ -36,10 +36,22 @@
 
         base {
             bindings = <
-         &kp J       &kp W        &kp F         &kp P      &kp G            &kp C         &kp L        &kp U       &kp Y          &kp B  &kp BSLH
- &kp LCTRL  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F      &kp G            &kp H  &hm RSHIFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMI  &kp APOS
-       &kp Z       &kp X        &kp C         &kp V      &kp B            &kp N         &kp M    &kp COMMA     &kp DOT       &kp FSLH   &kp ESC
-                                       &kp LGUI         &mo 1  &kp SPACE          &kp RET         &mo 2     &kp RALT
+         /* TOP LEFT */
+         &kp J       W        &kp F         &kp P        &kp G      
+         /* TOP RIGHT */
+         &kp C       &kp L        &kp U         &kp Y        &kp B
+         /* MID LEFT */
+         &kp Z       &kp A        &kp R         &kp S        &kp T        &kp D
+         /* MID RIGHT */
+         &kp H       &kp N        &kp E         &kp I        &kp O        &kp K
+         /* BTM LEFT */
+         &kp LALT    &hm LCTRL COMMA &hm LSHIFT LEFT_PARENTHESIS &kp V
+         /* BTM RIGHT */
+         &kp M         &hm RSHIFT RIGHT_PARENTHESIS &hm LCTRL DOT &hm LALT QUESTION
+         /* THUMB LEFT */
+         &kp ESC       &mo 1     &kp SPACE
+         /* THUMB RIGHT */
+         &kp RET        &mo BACKSPACE     &kp WORDBACK
             >;
         };
     };
