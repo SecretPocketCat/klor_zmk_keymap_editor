@@ -27,7 +27,7 @@
     };
 
     macros {
-        dummy: new_macro {
+        _: new_macro {
             compatible = "zmk,behavior-macro";
             label = "";
             #binding-cells = <0>;
@@ -55,7 +55,7 @@
          /* THUMB LEFT */
          &lt MED ESC       &lt NAV SPACE     &lt UNI TAB
          /* THUMB RIGHT */
-         &lt FUN RET        &lt NUM BACKSPACE     &dummy
+         &lt FUN RET        &lt NUM BACKSPACE     &_
             >;
         };
     };
