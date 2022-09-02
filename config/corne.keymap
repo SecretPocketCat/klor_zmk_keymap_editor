@@ -49,9 +49,9 @@
          /* BTM RIGHT */
          &kp M         &hm RSHIFT RIGHT_PARENTHESIS &hm LCTRL DOT &hm LALT QUESTION
          /* THUMB LEFT */
-         &kp ESC       &mo 1     &kp SPACE
+         &lt MED ESC       &lt NAV SPACE     &lt UNI TAB
          /* THUMB RIGHT */
-         &kp RET        &mo BACKSPACE     &kp WORDBACK
+         &lt FUN RET        &lt NUM BACKSPACE     &lt SYM WORDBACK
             >;
         };
     };
