@@ -47,7 +47,7 @@
             >;
         };
 
-        Layer__1 {
+        NAV {
             bindings = <
                &trans     &trans     &trans     &trans     &trans          &trans  &trans  &trans  &trans  &trans
  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)          &trans  &trans  &trans  &trans  &trans  &trans
