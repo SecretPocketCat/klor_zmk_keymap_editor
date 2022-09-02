@@ -37,7 +37,7 @@
         base {
             bindings = <
          /* TOP LEFT */
-         &kp J       W        &kp F         &kp P        &kp G      
+         &kp J       &kp W        &kp F         &kp P        &kp G      
          /* TOP RIGHT */
          &kp C       &kp L        &kp U         &kp Y        &kp B
          /* MID LEFT */
