@@ -55,7 +55,7 @@
          /* THUMB LEFT */
          &lt MED ESC       &lt NAV SPACE     &lt UNI TAB
          /* THUMB RIGHT */
-         &lt FUN RET        &lt NUM BACKSPACE     &lt SYM &dummy
+         &lt FUN RET        &lt NUM BACKSPACE     &dummy
             >;
         };
     };
