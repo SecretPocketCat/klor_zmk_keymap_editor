@@ -27,9 +27,9 @@
     };
 
     macros {
-        new_macro: new_macro {
+        dummy: new_macro {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "";
             #binding-cells = <0>;
             bindings = <>;
         };
@@ -40,10 +40,22 @@
 
         base {
             bindings = <
-            &kp J            &kp W                        &kp F          &kp P        &kp G                &kp C              &kp L                         &kp U          &kp Y              &kp B
-  &kp Z     &kp A            &kp R                        &kp S          &kp T        &kp D                &kp H              &kp N                         &kp E          &kp I              &kp O   &kp K
-         &kp LALT  &hm LCTRL COMMA  &hm LSHIFT LEFT_PARENTHESIS          &kp V                                                &kp M  &hm RSHIFT RIGHT_PARENTHESIS  &hm LCTRL DOT  &hm LALT QUESTION
-                                                    &lt MED ESC  &lt NAV SPACE  &lt UNI TAB          &lt FUN RET  &lt NUM BACKSPACE              &lt SYM WORDBACK
+         /* TOP LEFT */
+         &kp J       &kp W        &kp F         &kp P        &kp G      
+         /* TOP RIGHT */
+         &kp C       &kp L        &kp U         &kp Y        &kp B
+         /* MID LEFT */
+         &kp Z       &kp A        &kp R         &kp S        &kp T        &kp D
+         /* MID RIGHT */
+         &kp H       &kp N        &kp E         &kp I        &kp O        &kp K
+         /* BTM LEFT */
+         &kp LALT    &hm LCTRL COMMA &hm LSHIFT LEFT_PARENTHESIS &kp V
+         /* BTM RIGHT */
+         &kp M         &hm RSHIFT RIGHT_PARENTHESIS &hm LCTRL DOT &hm LALT QUESTION
+         /* THUMB LEFT */
+         &lt MED ESC       &lt NAV SPACE     &lt UNI TAB
+         /* THUMB RIGHT */
+         &lt FUN RET        &lt NUM BACKSPACE     &lt SYM &dummy
             >;
         };
     };
