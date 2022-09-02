@@ -40,10 +40,10 @@
 
         base {
             bindings = <
-            &kp J            &kp W                        &kp F          &kp P        &kp G                &kp C              &kp L                         &kp U          &kp Y              &kp B
-  &kp Z     &kp A            &kp R                        &kp S          &kp T        &kp D                &kp H              &kp N                         &kp E          &kp I              &kp O   &kp K
-         &kp LALT  &hm LCTRL COMMA  &hm LSHIFT LEFT_PARENTHESIS          &kp V                                                &kp M  &hm RSHIFT RIGHT_PARENTHESIS  &hm LCTRL DOT  &hm LALT QUESTION
-                                                    &lt MED ESC  &lt NAV SPACE  &lt UNI TAB          &lt FUN RET  &lt NUM BACKSPACE                            &_
+            &kp J            &kp W                        &kp F        &kp P      &kp G              &kp C            &kp L                         &kp U          &kp Y              &kp B
+  &kp Z     &kp A            &kp R                        &kp S        &kp T      &kp D              &kp H            &kp N                         &kp E          &kp I              &kp O   &kp K
+         &kp LALT  &hm LCTRL COMMA  &hm LSHIFT LEFT_PARENTHESIS        &kp V                                          &kp M  &hm RSHIFT RIGHT_PARENTHESIS  &hm LCTRL DOT  &hm LALT QUESTION
+                                                      &lt 6 ESC  &lt 1 SPACE  &lt 5 TAB          &lt 3 RET  &lt 2 BACKSPACE           &lt 4 RC(BACKSPACE)
             >;
         };
 
@@ -53,6 +53,51 @@
  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)          &trans  &trans  &trans  &trans  &trans  &trans
          &kp LEFT_ALT  &kp LCTRL  &kp LSHFT   &kp LGUI                             &trans  &trans  &trans  &trans
                                      &trans     &trans     &trans          &trans  &trans  &trans
+            >;
+        };
+
+        NUM {
+            bindings = <
+         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        FUN {
+            bindings = <
+         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        SYM {
+            bindings = <
+         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        UNI {
+            bindings = <
+         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        WIN {
+            bindings = <
+         &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
